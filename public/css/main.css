@@ -1,0 +1,131 @@
+body {
+    margin: 50px 200px;
+    background-color: #1a9695;
+    font-family: hobo-std, sans-serif;
+}
+main {
+    height: 500px;
+    border-radius: 30px;
+    background: #1a9695;
+    box-shadow:  20px 20px 60px #16807f,
+                -20px -20px 60px #1eadab;
+    border: 2px solid white;
+}
+header {
+    border-radius: 30px;
+    background: #1a9695;
+    box-shadow: -20px -20px 60px #1eadab;
+    border: 2px solid white;
+    position: relative;
+}
+#buttons {
+    padding: 0;
+    position: absolute;
+    bottom: -2px;
+    left: 30px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(20, 115, 114);
+}
+button {
+    border: none;
+    display: inline;
+    padding: 12px;
+    margin: 0;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0);
+}
+.r {
+    border-right: 2px solid white;
+}
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    text-decoration: underline;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+a:hover {
+    color: black;
+}
+form {
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: rgb(20, 115, 114);
+    width: 75%;
+    margin: 50px auto;
+    text-align: center;
+    height: 360px;
+    padding: 20px;
+    box-shadow:  20px 20px 60px #16807f,
+                -20px -20px 60px #1eadab;    
+}
+form label {
+    color: white;
+}
+form h2 {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+}
+#short {
+    margin: 10px auto 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+    width: 90%;
+}
+#long {
+    margin: 10px auto 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 25px;
+    width: 90%;
+}
+#shortSubmit {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: rgba(37, 219, 218, 1);
+    color: white;
+    border: 2px solid white;
+    font-family: sans-serif;
+}
+#shortSubmit:hover {
+    color: black;
+}
+#shortSubmit:active {
+    background-color: rgb(20, 115, 114);
+}
+p {
+    margin-top: 35px;
+    text-shadow: 0 0 3px white;
+    font-size: 25px;
+}
+li {
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 75%;
+    margin: auto;
+}
